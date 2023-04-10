@@ -13,6 +13,16 @@
     border: 0;
     border-radius: 5px;
 }
+.btn-secondary{
+    background-color: #FFFFFF;
+    color: #FD6E0A;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+}
 /* header section */
 .header{
     background-color: #FFF8F3;
@@ -24,7 +34,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 .nav-title{
     font-weight: 800;
@@ -147,4 +157,29 @@ section{
 .resumy-button{
     margin-top: 50px;
     text-align: center;
+}
+/* footer section */
+.contact{
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    display: flex;
+    gap: 100px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.section-description{
+
+}
+.contact a{
+    text-decoration: none;
+}
+input{
+    height: 64px;
 }
